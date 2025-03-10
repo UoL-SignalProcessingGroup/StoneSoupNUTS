@@ -23,9 +23,34 @@ implementing improvements.
 
 
 ### Installation
-This code builts on top of [Stone Soup](https://github.com/dstl/Stone-Soup), until the PR with the added code is 
-not pushed to the main branch and version the installation points to a fork with the relevant code.
-In the future, we will upate the installation guide to ease running this tutorial.
+
+To install and test the code provided you can use a virtual environment.
+How to set up a virtual environemnt:
+
+```unix
+python3 -m venv <name_of_venv>
+```
+
+#### Activate the venv
+
+##### Unix
+```bash
+source <name_of_venv>/bin/activate
+```
+
+##### Windows
+```powershell
+.\<name_of_venv>\Scripts\activate
+```
+
+Then you can install all the dependencies by doing:
+```bash
+python -m pip install -e .[dev]
+```
+
+#### Please note:
+This code is built on top of [Stone Soup](https://github.com/dstl/Stone-Soup) and when the code will be reviewed and included
+in the main branch we will update the installation guide for easier running of the tutorial.
 
 ## Cite this work
 Coming soon

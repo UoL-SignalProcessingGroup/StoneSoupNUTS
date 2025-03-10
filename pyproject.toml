@@ -1,0 +1,45 @@
+[project]
+name = "stonesoupnuts"
+version = "0.1"
+description = "Stone Soup comparison of particle filter proposals"
+maintainers = [
+    { name = "University of Liverpool" }
+]
+authors = [
+  { name = "Alberto Acuto", email = "a.acuto@liverpool.ac.uk" },
+  {name = "Lyudmil Vladimirov", email = "l.vladimirov@liverpool.ac.uk" },
+  {name = "Alessandro Varsi", email = "a.varsi@liverpool.ac.uk" },
+  {name = "Paul Horridge", email = "p.horridge@liverpool.ac.uk" },
+ { name = "Simon Maskell", email = "smaskell@liverpool.ac.uk" }
+]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Programming Language :: Python :: 3 :: Only",
+#    "License :: OSI Approved :: Eclipse Public License 2.0 (EPL-2.0)",
+]
+
+requires-python = ">=3.8"
+dependencies = [
+    "stonesoup@git+https://github.com/A-acuto/Stone-Soup.git@nuts_proposal",
+    "pandas",
+    "numpy",
+    "notebook"
+ ]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "flake8<5",
+    "wheel",
+]
+
+[tool.setuptools.packages.find]
+#include = ["auxiliary", "auxiliary.*", "stonesoup_plugin", "stonesoup_plugin.*"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
