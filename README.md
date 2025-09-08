@@ -1,7 +1,7 @@
 # Stone Soup Goes NUTS: Adding Proposals and the No-U-Turn Sampler to Stone Soup
-Tutorial repository for the paper submitted  and presented at [FUSION 2025]{https://fusion2025.org/} with title: "Stone Soup goes NUTS: adding proposals and The 
+Tutorial repository for the paper submitted  and presented at [FUSION 2025](https://fusion2025.org/) with title: "Stone Soup goes NUTS: adding proposals and The 
 No-U-Turn Sampler to Stone Soup"
-You can read the paper on [IEEE Xplore]{https://ieeexplore.ieee.org/document/11124070}
+You can read the paper on [IEEE Xplore](https://ieeexplore.ieee.org/document/11124070)
 
 ## Abstract
 Particle filters are essential for state estimation in non-linear and non-Gaussian systems, with performance hinging
