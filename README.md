@@ -1,6 +1,7 @@
-# Stone Soup goes NUTS
-Tutorial repository for the paper submitted at FUSION 2025 with title: "Stone Soup goes NUTS: adding proposals and The 
+# Stone Soup Goes NUTS: Adding Proposals and the No-U-Turn Sampler to Stone Soup
+Tutorial repository for the paper submitted  and presented at [FUSION 2025]{https://fusion2025.org/} with title: "Stone Soup goes NUTS: adding proposals and The 
 No-U-Turn Sampler to Stone Soup"
+You can read the paper on [IEEE Xplore]{https://ieeexplore.ieee.org/document/11124070}
 
 ## Abstract
 Particle filters are essential for state estimation in non-linear and non-Gaussian systems, with performance hinging
@@ -53,6 +54,19 @@ This code is built on top of [Stone Soup](https://github.com/dstl/Stone-Soup) an
 in the main branch we will update the installation guide for easier running of the tutorial.
 
 ## Cite this work
-Coming soon
+```bibtex
+@INPROCEEDINGS{11124070,
+  author={Acuto, Alberto and Vladimirov, Lyudmil and Varsi, Alessandro and Horridge, Paul and Maskell, Simon},
+  booktitle={2025 28th International Conference on Information Fusion (FUSION)}, 
+  title={Stone Soup Goes NUTS: Adding Proposals and the No-U-Turn Sampler to Stone Soup}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Accuracy;Particle filters;Mathematical models;Time measurement;Robustness;Trajectory;State-space methods;Proposals;Kalman filters;State estimation;Particle Filter;proposal distributions;importance sampling;no-u-turn-sampler},
+  doi={10.23919/FUSION65864.2025.11124070}
+}
+```
+
 
 
